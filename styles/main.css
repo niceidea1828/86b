@@ -1,0 +1,32 @@
+.wrapper {
+  overflow: hidden;
+}
+
+.links {
+  width: 300px;
+  margin: 20px auto auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px 0;
+}
+
+.link {
+  display: block;
+  width: 130px;
+}
+
+.link img {
+  width: 100%;
+}
+
+.modal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+
+  width: 310px;
+}
